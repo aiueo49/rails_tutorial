@@ -1,2 +1,6 @@
 # rails_tutorial 
-Railsチュートリアルをやる
+Railsチュートリアルをやる 
+開始6/9~
+
+
+
