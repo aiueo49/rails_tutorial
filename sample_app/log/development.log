@@ -45,3 +45,10 @@ Processing by StaticPagesController#about as HTML
 Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 11692)
 
 
+Started GET "/static_pages/home" for ::1 at 2024-06-11 19:12:48 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.9ms | Allocations: 104)
+Completed 200 OK in 6ms (Views: 4.5ms | Allocations: 972)
+
+
