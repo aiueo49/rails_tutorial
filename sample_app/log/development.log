@@ -52,3 +52,37 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 6ms (Views: 4.5ms | Allocations: 972)
 
 
+Started GET "/static_pages/home" for ::1 at 2024-06-11 19:39:13 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 2756)
+Completed 200 OK in 38ms (Views: 33.4ms | Allocations: 3487)
+
+
+Started GET "/static_pages" for ::1 at 2024-06-11 19:40:28 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages"):
+  
+Started GET "/static_pages" for ::1 at 2024-06-11 19:41:34 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages"):
+  
+Started GET "/static_pages" for ::1 at 2024-06-11 19:41:35 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages"):
+  
+Started GET "/static_pages" for ::1 at 2024-06-11 19:41:36 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages"):
+  
+Started GET "/" for ::1 at 2024-06-11 19:41:39 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 31379)
+Completed 200 OK in 35ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 33303)
+
+
