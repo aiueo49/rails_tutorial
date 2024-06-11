@@ -9,3 +9,39 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 6ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2580)
 
 
+Started GET "/static_pages/home" for ::1 at 2024-06-11 17:33:35 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 242.3ms | Allocations: 87129)
+Completed 200 OK in 245ms (Views: 244.1ms | Allocations: 87996)
+
+
+Started GET "/static_pages/home" for ::1 at 2024-06-11 17:43:50 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2709)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 3438)
+
+
+Started GET "/static_pages/help" for ::1 at 2024-06-11 17:44:29 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2684)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 3414)
+
+
+Started GET "/static_pages/about" for ::1 at 2024-06-11 18:54:08 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.9ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 10882)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 11692)
+
+
